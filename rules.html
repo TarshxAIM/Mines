@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="diamond-gem-removebg.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Mines Game Rules</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #0f212e;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            background-image: url("low-poly-grid-haikei.svg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #2f4553;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #00e701;
+        }
+        h2 {
+            color: #00c6a3;
+        }
+        ul {
+            line-height: 1.6;
+        }
+        .example {
+            background-color: #34495e;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><b>Mines Game Rules</b></h1>
+        <h2>Objective</h2>
+        <p>Your goal is to navigate the 25-tile grid by either clicking on a tile or choosing a random one. If you reveal a gem, your multiplier will increase as you progress to the next round. Reveal a mine, however, and you will lose the round and your bet.</p>
+        
+        <h2>Game Setup</h2>
+        <ul>
+            <li>The game is played on a 5x5 grid.</li>
+            <li>At the start, Diamonds and Mines are randomly placed under the tiles.</li>
+        </ul>
+
+        <h2>How to Play</h2>
+        <ul>
+            <li>Set your bet amount</li>
+            <li>Select the number of mines</li>
+            <li>Click the “Bet” button</li>
+            <li>Click on a tile</li>
+            <li>If it reveals a diamond, your multiplier will increase</li>
+            <li>If it reveals a mine, the game will end and you will lose your bet</li>
+            <li>You can either choose to cash out or keep playing until you land on a mine or discover all of the diamonds</li>
+        </ul>
+
+        <h2>Game Over</h2>
+        <p>The game is over when the user chooses a tile with the mine in it.</p>
+    </div>
+</body>
+</html>
